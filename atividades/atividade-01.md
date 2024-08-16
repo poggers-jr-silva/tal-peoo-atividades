@@ -45,14 +45,14 @@ print(f"Nome: {pessoa2.nome}. Idade: {pessoa2.idade}")
 
 ## Questões
 
-**Instruções**: Crie um arquivo chamada `cachorro.py` e faça as seguintes questões.
+**Instruções**: Crie um arquivo chamado `cachorro.py` e faça as seguintes questões.
 
-1. Crie uma classe `Cachorro` com os atributos nome, raça, peso, idade e vacinado. Defina idade como `int`, peso como `float`, vacinado como `bool`, os demais atributos como `string`.
+1. Crie uma classe `Cachorro` com os atributos nome, raça, peso, idade e vacinado. Defina idade como `int`, peso como `float`, vacinado como `bool` (True ou False), os demais atributos como `string`.
 
 2. Defina esses atributos no **construtor da classe**.
 
 3. Crie o método `latir` para a classe, esse método deve exibir o barulho do cachorro.
 
-4. Crie o método `tem_vacina` para a classe, esse método deve exibir se o cachorro é vacinado ou não.
+4. Crie o método `tem_vacina` para a classe, esse método deve verificar e exibir se o cachorro é vacinado ou não.
 
-5. Crie um objeto da classe Cachorro e defina seus atributos. Mostre esses atributos com o `print`, faça a chamada de seus métodos desse objeto.
+5. Crie um objeto da classe Cachorro e defina seus atributos. Mostre esses atributos com o `print`, faça a chamada dos métodos desse objeto.
