@@ -52,17 +52,18 @@ pessoa3.adicionar_idade(anos1)
 ```
 
 ## Questões
+**Instruções**: Crie um arquivo chamado `animal.py` e faça as seguintes questões.
 
-**Instruções**: Crie um arquivo chamado `produto.py` e faça as seguintes questões.
-
-1. Crie uma classe `Produto` com os atributos nome, descrição, preço e estoque. Defina preço como `float`, estoque como `int`, os demais atributos como `string`.
+1. Crie uma `classe Animal` com os atributos espécie, descrição, idade, peso, e adulto. Defina peso como `float`, idade como `int`, adulto como `bool` (True ou False), os demais atributos como `string`.
 
 2. Defina esses atributos no construtor da classe.
 
-3. Crie o método `mostrar_informações` para a classe, esse método deve imprimir os atributos do produto.
+3. Crie o método `mostrar_informacoes` para a classe, esse método deve imprimir os atributos do animal.
 
-4. Crie o método `vender` para a classe, esse método deve receber a varíavel `quantidade`. Se a quantidade vendida for maior que o estoque, deve imprimir uma mensagem de erro. Caso contrário, deve atualizar o estoque subtraindo a quantidade vendida.
+4. Crie o método `alimentar` para a classe, esse método deve receber a variável `quantidade`. Se a quantidade de alimento for maior que o peso do animal, deve imprimir uma mensagem de erro. Caso contrário, deve atualizar o peso somando a quantidade de alimento.
 
-5. Crie o método `atualizar_preco`, esse método deve receber a varíavel `novo_preco` e atualizar o preço do produto. Se o novo preço for menor que 0, deve imprimir uma mensagem de erro.
+5. Crie o método `buscar_alimento`. Esse método deve verificar se o animal é adulto ou não. Se for adulto, deve informar que ele já pode caçar seu alimento. Caso contrário, informar que ele não pode caçar sozinho.
 
-6. Crie um objeto da classe Produto e defina seus atributos. Faça a chamada dos métodos desse objeto.
+6. Crie um objeto da classe Animal e defina seus atributos. Faça a chamada dos métodos desse objeto.
+
+- EXTRA. No método `buscar_alimento`, se o animal for adulto, pergunte ao usuário a quantidade de alimento que ele caçou e faça a chamada do método `alimentar`.
